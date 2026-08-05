@@ -1,0 +1,73 @@
+ticket_text,category,urgency
+I noticed the app version number displayed is out of date on the About page.,Software,Low
+"Our main file server's hard drive is making a clicking noise and won't mount, we think it's failing.",Hardware,High
+"My external monitor only works when the cable is at a very specific angle, quite frustrating.",Hardware,Medium
+A critical bug in last night's release is causing incorrect charges on customer accounts.,Software,High
+A file sync notification lingers a little longer than it used to before completing.,Network,Low
+The app's light mode has a slightly low-contrast button on one settings page.,Software,Low
+The scheduling tool keeps sending duplicate reminder emails to clients for the same appointment.,Software,Medium
+The receipt printer at the register jams roughly once every hour during busy periods.,Hardware,Medium
+The entire HR system is inaccessible right before the benefits enrollment deadline today.,Software,High
+Every store location lost connection to the central inventory system at the same time.,Network,High
+The whole team's access to the client database has been broken since this morning's deployment.,Software,High
+"My MFA app isn't generating working codes, I can log into some systems but not others.",Access,Medium
+I'm the approver for today's payroll run and I've been locked out of the system with no way in.,Access,High
+Could I get access to the new vendor portal sometime this week?,Access,Low
+My permissions to the internal wiki were revoked by mistake after a recent reorg.,Access,Medium
+Our entire billing system is down and we can't process any customer payments right now.,Software,High
+I keep losing connection to the VPN whenever I move between floors with my laptop.,Network,Medium
+"Our entire logistics tracking system is down, we have no visibility into any shipments right now.",Software,High
+My email client keeps flagging legitimate internal emails as spam since yesterday's update.,Software,Medium
+Could I get read-only access to the design team's asset library sometime?,Access,Low
+"I can't reset my password through the usual portal, it keeps saying my security questions don't match.",Access,Medium
+Our inventory software miscounts stock whenever two people update the same item simultaneously.,Software,Medium
+I need my access restored to a shared folder that got locked after an ownership change.,Access,Medium
+"The scanner in our department jams on almost every batch, slowing down our filing process.",Hardware,Medium
+"My laptop's trackpad has stopped responding intermittently, I have to plug in a mouse as a workaround.",Hardware,Medium
+"My badge photo is outdated, could this be updated next time IT has availability.",Access,Low
+The guest WiFi password screen pops up occasionally even though I'm already connected.,Network,Low
+My headset volume seems a touch lower than before.,Hardware,Low
+"My laptop got liquid spilled on it and shut off immediately, I need an emergency replacement device.",Hardware,High
+Two of us on the team are having the same issue reaching the client portal over VPN.,Network,Medium
+"Our CRM's search function returns incomplete results since yesterday, making lead lookup unreliable.",Software,Medium
+Our data center's primary storage array just failed and we're at risk of losing active client data.,Hardware,High
+"Our e-commerce checkout page is throwing errors for every customer, we're losing sales right now.",Software,High
+"Our CRM keeps logging me out every 30 minutes, making it hard to get through client calls.",Software,Medium
+"The core router for our data center just failed, all services are currently unreachable.",Network,High
+"The internet in the break room seems weaker than usual, just a heads up.",Network,Low
+"My browser bookmarks bar occasionally reorders itself, not a big deal.",Software,Low
+"The new update changed the button placement in our CRM, just getting used to it.",Software,Low
+Our data center connection dropped and we're unable to process any transactions right now.,Network,High
+"The security camera system hardware is down building-wide, this needs immediate attention for safety reasons.",Hardware,High
+The trackpad on my laptop is a little less smooth than it used to be.,Hardware,Low
+"My SSO login keeps failing for one specific internal app, though it works everywhere else.",Access,Medium
+"I need immediate access to the compliance system, we have a regulatory deadline today and I'm blocked.",Access,High
+"I keep getting kicked off our internal chat tool every 10 minutes, need to log back in constantly.",Network,Medium
+"I can't hold a stable connection to the design server, it drops every 20 minutes or so.",Network,Medium
+The power button on my monitor is a little stiff to press.,Hardware,Low
+"I noticed I have access to a tool I no longer need, happy to have it removed whenever.",Access,Low
+"I'm unable to export data from the analytics dashboard, it just shows a loading spinner forever.",Software,Medium
+"The network outage has taken down our phone system too, we can't take any incoming calls.",Network,High
+The shared drive takes a few extra seconds to load files this week.,Network,Low
+The core switch hardware for the whole building caught a fault and took every wired connection down.,Hardware,High
+"The headset mic keeps cutting out mid-call, I've had to repeat myself several times to clients.",Hardware,Medium
+Our whole team lost access to the client portal an hour before a major deliverable is due.,Access,High
+The touchscreen kiosk in the lobby is unresponsive in the upper right quadrant.,Hardware,Medium
+The whole legal team got locked out of the document system an hour before a court filing deadline.,Access,High
+I noticed the loading spinner is a bit inconsistent in style between two screens of the same app.,Software,Low
+"One of my monitor's corners has slight discoloration, doesn't affect the display otherwise.",Hardware,Low
+"I'd like to be added as a backup approver on one workflow, no rush.",Access,Low
+My new hire's account still doesn't have access to half the systems she needs for training this week.,Access,Medium
+Remote desktop into my work computer keeps freezing and disconnecting every 15 minutes or so.,Network,Medium
+"Every device on this floor lost power when a breaker tripped, nobody can charge their laptops.",Hardware,High
+I'm locked out of the incident response system in the middle of an active production outage.,Access,High
+"I get a brief connection hiccup around the same time every afternoon, likely not urgent.",Network,Low
+I wanted to mention that file uploads to the shared server take a little longer than before.,Network,Low
+"I noticed I still have access to a project I've rolled off of, might want to remove it eventually.",Access,Low
+"The VPN gateway appears to be completely down, nobody in our remote office can connect.",Network,High
+The main switch for our floor failed and nobody can reach the internet or internal tools.,Network,High
+One of the USB ports on my dock feels a little snug when plugging in devices.,Hardware,Low
+My access to the emergency response system was mistakenly revoked during an ongoing incident.,Access,High
+Formatting looks slightly different when I open the same file on my laptop vs desktop.,Software,Low
+The HDMI cable at my desk is a little loose and needs a slight wiggle to display properly.,Hardware,Low
+"I'm unable to connect to the VPN from home this morning, tried restarting twice already.",Network,Medium

@@ -1,0 +1,289 @@
+ticket_text,category,urgency
+I need access restored to the archived client files for an ongoing audit request.,Access,Medium
+"The network printer on the 3rd floor has been offline off and on all day, causing delays.",Network,Medium
+"This is urgent, our payroll software is throwing errors and paychecks are due to process tonight.",Software,High
+"The badge access system for the whole building is down, employees can't get into the office.",Hardware,High
+My connection to the shared drive drops whenever the office WiFi switches access points.,Network,Medium
+Pages load a little slower than normal on the guest network.,Network,Low
+"This bug is causing duplicate charges on customer credit cards, we need this fixed immediately.",Software,High
+"Excel takes a couple extra seconds to open large spreadsheets, not a big issue.",Software,Low
+"Zoom keeps crashing mid-meeting on my laptop, happened three times this week.",Software,Medium
+"I get an occasional 'reconnecting' notification on Teams, calls aren't actually affected.",Network,Low
+"My mouse pad is worn at the edges, not really an IT issue but wanted to flag it.",Hardware,Low
+Our entire order processing system crashed and we can't fulfill any pending customer orders.,Software,High
+Could I get added to the internal newsletter distribution list sometime this month?,Access,Low
+"None of the on-call engineers can access the incident system during this active outage, this is critical.",Access,High
+"The USB-C hub I was issued only charges intermittently, my laptop keeps dropping to low battery.",Hardware,Medium
+"The office network map on the intranet looks slightly outdated, not a functional issue.",Network,Low
+"The whole night shift got locked out of the building access system, nobody can get to their stations.",Access,High
+The WiFi in the east wing meeting rooms keeps cutting out mid-presentation.,Network,Medium
+"Video calls with our overseas team keep cutting out, we've had to reschedule twice this week.",Network,Medium
+"None of us on this call can join our biggest client's meeting, the network keeps cutting everyone.",Network,High
+The wireless keyboard in the training room keeps disconnecting mid-presentation.,Hardware,Medium
+"Our data warehouse ETL job failed catastrophically overnight, all of today's reports are wrong or missing.",Software,High
+"The laptop stand I was given is a bit small for my monitor, just a minor inconvenience.",Hardware,Low
+I want to double check I have the right permissions for the new project folder.,Access,Low
+"My monitor flickers every few minutes, making it hard to focus on my screen.",Hardware,Medium
+The e-signature tool fails to send documents to external clients about 1 in 5 times.,Software,Medium
+"My headset's microphone picks up a faint hum sometimes, not affecting call quality much.",Hardware,Low
+The search bar in our project tool sometimes returns results slightly out of order.,Software,Low
+"The office network feels a touch slower after lunch, but everything still loads.",Network,Low
+"The phone system hardware for the entire call center is down, we can't take any customer calls.",Hardware,High
+Could I get access to last quarter's slide deck archive when someone has a moment?,Access,Low
+My connection to the internal dashboard times out every time I leave it open over 30 minutes.,Network,Medium
+"I'm seeing occasional lag on video calls, nothing that's stopping me from working though.",Network,Low
+The dashboard sometimes shows yesterday's numbers for a minute before updating.,Software,Low
+"I can't get past the MFA prompt on my new phone, blocking me from several tools.",Access,Medium
+"My remote connection to the office server drops whenever I switch WiFi networks, even briefly.",Network,Medium
+"My mouse disconnects randomly throughout the day, disrupting my workflow.",Hardware,Medium
+"I noticed I don't have edit access to one older document, not urgent though.",Access,Low
+"I'd like to double check my access to the optional wellness portal, not urgent.",Access,Low
+My admin access was removed and now nobody on the team can approve time-sensitive contracts today.,Access,High
+"My job title in the directory doesn't reflect my recent promotion, minor update needed.",Access,Low
+My laptop is completely unresponsive and I have a major deadline due in the next hour.,Hardware,High
+I can't access any system needed to respond to a security incident that's happening right now.,Access,High
+My keyboard's spacebar is sticking badly enough that it's slowing down my typing significantly.,Hardware,Medium
+"The company-wide single sign-on software failed, nobody can access any internal tool right now.",Software,High
+"The entire team's shared workstation crashed and won't restart, blocking all of us from our morning tasks.",Hardware,High
+"Autocorrect in our chat app is a little aggressive, would be nice to adjust it someday.",Software,Low
+"I can't upload large files to the server, the connection times out around the 80% mark every time.",Network,Medium
+"Our accounting software is showing mismatched totals since the last update, need this checked.",Software,Medium
+"My desk lamp's USB charging port is a bit loose, unrelated to my computer but figured I'd mention it.",Hardware,Low
+Our main office network went down and the whole sales team is unable to work.,Network,High
+Our floor's network has been noticeably slower since the move to the new office space.,Network,Medium
+"This is affecting our entire customer support queue, nobody can log calls or access records.",Network,High
+"The database migration script failed halfway through, we might be at risk of data loss.",Software,High
+I can't access the client portal from my new laptop even after IT set up my profile.,Access,Medium
+"I get a small popup reminding me to update the app, even though I just updated it.",Software,Low
+"Could someone confirm my access level for the shared calendar, just want to verify.",Access,Low
+"I'd like to be added to a Slack channel for my new team, not time-sensitive.",Access,Low
+"My home VPN connection has a slight delay when opening internal tools, but it's usable.",Network,Low
+"I'd like to request access to the marketing team's shared folder when convenient, no rush.",Access,Low
+"My laptop screen went completely black and won't respond to anything, I can't access any of my files.",Hardware,High
+"We have a full outage on our network, multiple departments have reported the same issue in the last 10 minutes.",Network,High
+"Nothing broken, just curious if others are seeing slightly slower internet speeds today.",Network,Low
+I can't access the shared drive for my new project even though my manager approved it two days ago.,Access,Medium
+"One of my browser extensions shows an outdated icon, not affecting functionality.",Software,Low
+"The chat app keeps signing me out of certain channels, I have to keep rejoining.",Software,Medium
+Our entire floor lost internet access about 20 minutes ago and nobody can get online.,Network,High
+Our team's shared label printer keeps printing blank pages every few labels.,Hardware,Medium
+"My laptop's charging port seems loose, the charge indicator flickers unless the cable is held just right.",Hardware,Medium
+"The VPN is completely down for our whole remote team, we can't access any client files.",Network,High
+"I'm getting DNS errors trying to reach a couple of our internal tools, though external sites work fine.",Network,Medium
+"My badge stopped working for the server room, and I need to get in for scheduled maintenance today.",Access,Medium
+"I can't save changes in the shared document, it just spins and eventually times out.",Software,Medium
+The server room's cooling unit failed overnight and the equipment is overheating badly.,Hardware,High
+My laptop randomly disconnects from external monitors a few times a day.,Hardware,Medium
+"Our entire video surveillance hardware went offline overnight, we have a security gap right now.",Hardware,High
+Our entire finance team was accidentally deprovisioned this morning right before month-end close.,Access,High
+"My spreadsheet macro stopped working after the last software update, breaking a report I run weekly.",Software,Medium
+"Excel crashes whenever I try to open one specific large file, I've lost work twice now.",Software,Medium
+"My work laptop was damaged during shipping and won't power on, I have no way to work today.",Hardware,High
+I noticed a small formatting glitch in Word when I paste from another document.,Software,Low
+"I need my read access upgraded to edit access for the shared proposal document, it's overdue.",Access,Medium
+"The lead engineer got locked out during a live production rollback, we need access restored immediately.",Access,High
+"The mobile app's badge count is occasionally off by one, resolves after reopening.",Software,Low
+The keyboard shortcuts guide in our software hasn't been updated for the newest feature.,Software,Low
+"The app icon still shows the old logo after the rebrand, purely cosmetic.",Software,Low
+My laptop keeps switching between WiFi networks and losing connection mid-task.,Network,Medium
+Every register in the store went down at once during our busiest hour of the day.,Hardware,High
+The conference room AV system completely failed right before our board presentation started.,Hardware,High
+The number pad on my keyboard has slightly less tactile feedback than the rest of the keys.,Hardware,Low
+"Our support hotline's network dependency is down, agents can't pull up any customer records.",Network,High
+The project management tool keeps duplicating tasks whenever multiple people edit at once.,Software,Medium
+"The scheduling tool double-books rooms sometimes, this has caused a couple of meeting conflicts.",Software,Medium
+The expense reporting tool rejects valid receipts with a vague formatting error.,Software,Medium
+My recent files list in the design tool takes a moment to refresh after saving.,Software,Low
+I'd like view access to the analytics dashboard when someone gets a chance.,Access,Low
+The USB port on the left side of my laptop feels a little loose.,Hardware,Low
+The main office printer is completely dead and payroll needs those documents printed today.,Hardware,High
+"My two-factor phone number is outdated, want to update it before it becomes an issue.",Access,Low
+"The internet has been unstable all morning, making it hard to get through client calls without dropping.",Network,Medium
+"The entire warehouse management system went down, we can't fulfill any orders.",Software,High
+"I need access to the client database restored, it was accidentally removed during a permissions update.",Access,Medium
+"The charging cable for my laptop is a bit frayed near the connector, might need a replacement eventually.",Hardware,Low
+The mobile app is crashing on launch for all users after last night's forced update.,Software,High
+A minor typo showed up in one of the automated email templates.,Software,Low
+I can't get the print-to-PDF function working in our document system anymore.,Software,Medium
+I need temporary access to another department's shared drive to cover for a coworker this week.,Access,Medium
+My VPN disconnects every 20-30 minutes and I have to keep logging back in to reach the shared drive.,Network,Medium
+The shared label maker in our department stopped feeding labels correctly halfway through most jobs.,Hardware,Medium
+The invoicing software freezes for about a minute every time I try to generate a PDF.,Software,Medium
+A bug in the latest deploy is silently dropping form submissions across our entire website.,Software,High
+Our night shift lost access to the monitoring system and there's no visibility into a live production issue.,Access,High
+"The server hosting our production database is unreachable, this is affecting all customer-facing systems.",Network,High
+Our building's network hardware room reported a fire alarm and all servers had to be shut down.,Hardware,High
+"My laptop won't turn on at all this morning, I have a client presentation in an hour.",Hardware,High
+The core application server crashed and it's affecting every customer-facing service we run.,Software,High
+"Not urgent, but I wanted to flag that my connection speed feels lower than usual.",Network,Low
+"My laptop's speaker sounds a touch tinny at high volume, not blocking calls.",Hardware,Low
+"I need urgent access reinstated, our biggest client's account renewal is due today and I can't process it.",Access,High
+"One of the keys on my keyboard sticks slightly, still usable though.",Hardware,Low
+"My computer just displayed a hardware failure warning and shut down, I haven't saved my work in a while.",Hardware,High
+My badge and system access were both disabled by mistake during an active client escalation.,Access,High
+"I can't access the internal ticketing system from my desk, though it works fine on my phone's hotspot.",Network,Medium
+My license for the design software expired and I can't renew it through the usual portal.,Software,Medium
+Our team's remote access to the file server has been spotty since yesterday afternoon.,Network,Medium
+The break room's shared printer only prints in grayscale now regardless of settings.,Hardware,Medium
+A tooltip in our internal tool is cut off on smaller screens.,Software,Low
+"This is urgent, the entire finance team lost access to the shared drive right before the reporting deadline.",Network,High
+"I need urgent help, our whole department lost VPN access right before a major client deliverable is due.",Network,High
+"My desk's ethernet connection sometimes blinks out for a second when I move my chair, probably a loose cable.",Network,Low
+"This is a critical outage, the whole call center lost network access mid-shift.",Network,High
+"Our authentication service is failing for all users, nobody across the company can log in.",Software,High
+"I'm completely locked out of every system, including email, and I have a client call in 15 minutes.",Access,High
+Our data pipeline stopped completely because the network link to the warehouse system is down.,Network,High
+Our department's printer keeps losing its network connection and I have to reconnect it manually each time.,Network,Medium
+"I'd like read access to last year's archived reports for reference, no rush.",Access,Low
+"My headset ear cushion is starting to wear down, still comfortable enough for now.",Hardware,Low
+"My browser's spellcheck stopped working, just a minor annoyance.",Software,Low
+My work laptop was stolen from my car and I need a replacement immediately to meet today's deadline.,Hardware,High
+"The network printer queue keeps stalling, delaying print jobs by 10-15 minutes each time.",Network,Medium
+The network status light on my desk switch blinks a bit more than usual.,Network,Low
+"Every computer on the 2nd floor lost internet at the same time, this needs immediate attention.",Network,High
+"My email signature template needs updating, low priority whenever someone's free.",Access,Low
+"The internal chat app disconnects randomly, forcing me to refresh several times a day.",Network,Medium
+"I noticed slightly higher ping on our project tracker, page still loads normally.",Network,Low
+"The point-of-sale hardware at the front desk is completely down, we can't process any customer transactions.",Hardware,High
+"The forklift's onboard scanner system failed, warehouse operations have come to a complete stop.",Hardware,High
+Our whole onboarding class starts in 30 minutes and none of them can log into any required system.,Access,High
+"My contractor account access expired a day early, and I still have deliverables due this week.",Access,Medium
+I can't access the system needed to stop a fraudulent transaction that's happening right now.,Access,High
+"I can't reach any internal systems at all, this is blocking a client deadline today.",Network,High
+"My laptop occasionally toggles between two WiFi access points, connection stays fine either way.",Network,Low
+The building's main server rack lost power and every hosted internal service is now down.,Hardware,High
+Could someone add me as a viewer on the shared roadmap document?,Access,Low
+"My mouse feels a little less responsive than usual, might just need new batteries.",Hardware,Low
+My noise-canceling headset intermittently loses the noise-canceling feature mid-call.,Hardware,Medium
+"The emergency generator failed to kick in during the outage, all server room equipment is at risk.",Hardware,High
+"I'd like to request a calendar view of a partner team's holidays, not time-sensitive.",Access,Low
+I'm blocked from approving today's critical vendor payment and the cutoff is in 20 minutes.,Access,High
+My work phone's battery no longer holds a charge through a full workday.,Hardware,Medium
+"The office WiFi drops entirely for about a minute every hour, disrupting my work.",Network,Medium
+"The docking station at my desk stopped charging my laptop reliably, has to be unplugged and replugged.",Hardware,Medium
+"My desk phone drops calls after about 10 minutes, happened three times today.",Hardware,Medium
+"The export button label is a bit confusing after the recent update, just a suggestion.",Software,Low
+The help documentation link in our tool points to an outdated page.,Software,Low
+"The on-call security engineer is locked out during an active breach investigation, need this fixed now.",Access,High
+I was accidentally removed from the shared team calendar and I'm missing important meeting invites.,Access,Medium
+My docking station's USB-C cable is a little bent but still charges fine.,Hardware,Low
+"My laptop battery swelled up and it's physically unsafe to keep using, need an urgent replacement.",Hardware,High
+Screen sharing on Zoom keeps freezing every 10 minutes during client calls this week.,Network,Medium
+The subscription billing engine is charging customers incorrect amounts across the board right now.,Software,High
+"I need emergency access to pull audit logs, we suspect a security incident is actively happening.",Access,High
+The VPN client keeps giving me a timeout error when I try to connect after 5pm.,Network,Medium
+My external hard drive makes a faint clicking noise occasionally but still works fine.,Hardware,Low
+The whole building's internet just went out during our quarterly all-hands meeting.,Network,High
+The reporting tool errors out whenever I try to filter by more than two categories.,Software,Medium
+"Our onboarding software skips a required step for about half of new hires, causing gaps.",Software,Medium
+My laptop takes a few extra seconds to wake up from sleep mode.,Hardware,Low
+My laptop screen has a growing dead pixel area that's starting to obscure part of my work.,Hardware,Medium
+"Outlook occasionally shows a stale unread count, but refreshing fixes it.",Software,Low
+Our appointment booking system crashed and clients can't schedule anything today.,Software,High
+"The CRM is completely inaccessible for the whole sales team, we're missing calls because of it.",Software,High
+I've been locked out of my email account since this morning and can't get back in with password resets.,Access,Medium
+"Our building lost all network connectivity after the storm, nobody can log in remotely or in-office.",Network,High
+My request for elevated access to the reporting tool has been pending approval for four days now.,Access,Medium
+"Slack notifications are a little delayed sometimes, nothing major.",Software,Low
+Could you add me to the optional training portal when you have a chance?,Access,Low
+Our backup server hardware failed and we may be at risk of losing recent data.,Hardware,High
+I can't merge two customer records in the CRM without it throwing a sync error.,Software,Medium
+The label on my laptop's asset tag is peeling off a little.,Hardware,Low
+"The new software rollout broke our custom templates, we've had to recreate them manually.",Software,Medium
+"My monitor's stand height adjustment is a bit stiff, still functional.",Hardware,Low
+"My credentials were revoked by mistake and I can't access anything, including systems needed for an active client emergency.",Access,High
+My keyboard backlight flickers briefly sometimes when I first turn on my laptop.,Hardware,Low
+Our production application crashed and none of our customers can log in.,Software,High
+I need admin rights on my laptop to install a tool required for my current project.,Access,Medium
+"Our core API is returning errors for every request, all integrations with partners are down.",Software,High
+My desk phone's ringer volume seems quieter than usual.,Hardware,Low
+The timesheet app rejects my hours every Friday with an unclear error message.,Software,Medium
+"My calendar app takes a moment to sync new invites, but they show up eventually.",Software,Low
+Our CFO is locked out of the banking portal right before an urgent wire transfer needs to be approved.,Access,High
+My account got flagged for suspicious activity and now I can't log into anything until it's cleared.,Access,Medium
+"I noticed the changelog popup shows up every time I open the app, a little repetitive.",Software,Low
+My WiFi has been a bit slow today but I can still get my work done.,Network,Low
+My team's shared document keeps reverting to an older version after multiple people edit it.,Software,Medium
+I can't reliably join Teams calls without the video freezing every few minutes.,Network,Medium
+The shared drive mapping keeps disappearing and I have to remap it every morning.,Network,Medium
+"The app's dark mode has a couple of low-contrast text spots, nothing blocking.",Software,Low
+"The entire warehouse network is offline, shipments can't be processed until this is fixed.",Network,High
+"My laptop battery drains from full to empty in about two hours now, need a replacement soon.",Hardware,Medium
+"Our office WiFi name isn't showing up sometimes, but it reconnects on its own.",Network,Low
+My login keeps failing on the vendor portal even after two password resets.,Access,Medium
+Just noting our floor's guest network sometimes shows one bar less than expected.,Network,Low
+"This software failure is blocking our end-of-quarter financial close, need immediate help.",Software,High
+I keep getting an 'access denied' error on the reporting dashboard I use every week.,Access,Medium
+"The warehouse scanning equipment is entirely offline, we can't process any incoming shipments today.",Hardware,High
+"I can't get the new software update to install, it fails partway through every time.",Software,Medium
+"The scheduling system for the entire clinic crashed, no appointments can be booked or checked in today.",Software,High
+I have access to most tools but wanted to confirm I'm included in the new one too.,Access,Low
+"I'm still waiting on access to the finance reporting tool, it's been three days and I need it for a deadline this week.",Access,Medium
+"The webcam image looks slightly blurry, not blocking any meetings.",Hardware,Low
+"My laptop caught a burning smell and shut off immediately, I stopped using it right away for safety.",Hardware,High
+The badge reader at our department entrance is only reading badges about half the time now.,Hardware,Medium
+"Our shared calendar sync fails intermittently, causing missed meeting reminders.",Network,Medium
+"My laptop fan is a bit louder than normal, not overheating though.",Hardware,Low
+Our team's shared network folder keeps timing out when more than a couple of us open it at once.,Network,Medium
+"The office printer keeps jamming every third page, I've had to redo several print jobs.",Hardware,Medium
+"My laptop makes a loud whirring noise under any moderate workload, worried it's overheating.",Hardware,Medium
+My access to the client's system was revoked mid-project and their deadline is in an hour.,Access,High
+My account is showing 'pending approval' for two tools I need to use today for a client deliverable.,Access,Medium
+My account got disabled after a security flag and I can't access anything needed to process today's payroll.,Access,High
+"Streaming a training video buffered a couple times today, otherwise no issues.",Network,Low
+"My profile picture on the directory is outdated, would like it changed eventually.",Access,Low
+My manager approved my access request four days ago but it still hasn't gone through.,Access,Medium
+"The barcode scanner in receiving misreads about a third of labels, slowing down intake.",Hardware,Medium
+My account is missing from the new project's access list even though I was added to the team.,Access,Medium
+"I need emergency access restored to the production database, we're mid-incident and I'm the only one who can fix it.",Access,High
+"Our failover network also went down, we have zero connectivity right now across the building.",Network,High
+We're in the middle of a live client demo and our network just went completely down.,Network,High
+My previous team's folder access wasn't removed and now I can't tell what I should actually have.,Access,Medium
+"Outlook isn't syncing new emails properly, I'm missing messages that come in after 2pm.",Software,Medium
+"My account shows an old job title, would like it updated whenever convenient.",Access,Low
+My laptop occasionally shows 'limited connectivity' for a few seconds before reconnecting.,Network,Low
+"The entire support ticketing platform is down, customers can't submit or view their tickets.",Software,High
+"My password expires in a couple weeks, just want to make sure I know the reset process.",Access,Low
+Just noting that our conference room WiFi is a little spotty near the back wall.,Network,Low
+There's a minor visual glitch in the reporting tool's sidebar menu.,Software,Low
+Could someone add me to the alumni-of-project mailing list when convenient?,Access,Low
+The conference room's display keeps losing signal from the room's laptop connection.,Hardware,Medium
+"The team chat app is dropping some messages entirely, we've missed a couple of important updates.",Software,Medium
+The battery on my wireless mouse seems to drain a bit faster than before.,Hardware,Low
+"The dashboard filters reset unexpectedly every time I switch tabs, losing my saved view.",Software,Medium
+A critical error in the reporting system is showing incorrect data to executives ahead of the board meeting.,Software,High
+My laptop overheats and shuts down after about an hour of video calls.,Hardware,Medium
+Our email marketing platform sent out an incomplete campaign to thousands of customers by mistake.,Software,High
+"Our disaster recovery site also lost connectivity, we have no backup network path right now.",Network,High
+"My replacement laptop's fan runs loudly under even light workloads, concerned about long-term wear.",Hardware,Medium
+"I need this fixed immediately, our support team can't access the ticketing system and customers are waiting.",Network,High
+The spare keyboard in the conference room has a slightly worn spacebar.,Hardware,Low
+Sometimes my VPN icon shows a weak signal even though I'm still connected fine.,Network,Low
+"I can't access the shared drive from my laptop, though it works fine from the office desktop.",Access,Medium
+I still can't access the shared analytics folder despite my manager submitting the request last week.,Access,Medium
+The software update last night broke our ability to process refunds for any customer.,Software,High
+"I've been locked out of the financial system right before the reporting deadline today, need urgent help.",Access,High
+The second monitor on my desk has a flickering black bar across the top half the time.,Hardware,Medium
+The notification sound in Teams is quieter than before the last update.,Software,Low
+Client-facing services are completely unreachable due to a network outage on our end.,Network,High
+PowerPoint's autosave notification pops up more frequently than before.,Software,Low
+"The office network diagram in the wiki hasn't been updated in a while, minor documentation note.",Network,Low
+My monitor stand wobbles a little when I bump the desk.,Hardware,Low
+"The WiFi signal in the stairwell is a little weak, but nowhere I usually work.",Network,Low
+The mobile app version of our CRM keeps crashing when I try to log a new lead.,Software,Medium
+The main HVAC unit for the server room failed and temperatures are rising fast.,Hardware,High
+"My home internet had a brief blip this morning, resolved itself within a minute.",Network,Low
+"I'd like to request access to the print server on the 4th floor, not urgent.",Access,Low
+A critical security patch failed to apply and now our whole platform is vulnerable and offline.,Software,High
+One of my monitor's brightness settings resets occasionally after a restart.,Hardware,Low
+"The entire support team lost login access at the same time, no one can respond to customer tickets right now.",Access,High
+I'd like a refresher on how to request access to new tools going forward.,Access,Low
+The entire remote team is locked out of the VPN during a critical release window.,Network,High
+"Our real-time monitoring dashboard is completely blank, we have no visibility into system health right now.",Software,High
+The wireless printer on our floor occasionally loses connection for a minute or two.,Network,Low
+"Our whole new-hire cohort still has zero system access on their first day, they can't do any training.",Access,High
+"My account keeps getting logged out of the VPN portal, I have to reset my password every time.",Access,Medium
+"I noticed my laptop drops WiFi for a second every once in a while, not a big deal.",Network,Low
+I want to confirm I still have access to a tool I only use once a quarter.,Access,Low
+"I'm unable to log into anything after this morning's account migration, and I have payroll to run before noon.",Access,High
+"This outage is company-wide, nobody in any office can reach internal systems right now.",Network,High
