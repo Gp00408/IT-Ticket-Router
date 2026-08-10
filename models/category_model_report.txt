@@ -1,0 +1,20 @@
+Accuracy: 0.792
+
+Classification report:
+              precision    recall  f1-score   support
+
+      Access      0.882     0.833     0.857        18
+    Hardware      0.842     0.889     0.865        18
+     Network      0.722     0.722     0.722        18
+    Software      0.722     0.722     0.722        18
+
+    accuracy                          0.792        72
+   macro avg      0.792     0.792     0.792        72
+weighted avg      0.792     0.792     0.792        72
+
+Confusion matrix (rows=true, cols=predicted):
+Labels: ['Access', 'Hardware', 'Network', 'Software']
+[[15  0  0  3]
+ [ 0 16  2  0]
+ [ 1  2 13  2]
+ [ 1  1  3 13]]
