@@ -11,8 +11,8 @@ Classification report:
    macro avg      0.821     0.819     0.820        72
 weighted avg      0.821     0.819     0.820        72
 
-Confusion matrix (rows=true, cols=predicted):
-Labels: ['Low', 'Medium', 'High']
-[[19  5  0]
- [ 3 18  3]
- [ 0  2 22]]
+Confusion matrix (rows = true urgency, columns = predicted urgency):
+             Low  Medium    High
+     Low      19       5       0
+  Medium       3      18       3
+    High       0       2      22

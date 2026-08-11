@@ -35,6 +35,13 @@ def train_model(X_train, y_train) -> LogisticRegression:
     return model
 
 
+def format_confusion_matrix(matrix, labels) -> str:
+    width = max(len(label) for label in labels) + 2
+    rows = [" " * width + "".join(label.rjust(width) for label in labels)]
+    for label, row in zip(labels, matrix):
+        rows.append(label.rjust(width) + "".join(str(v).rjust(width) for v in row))
+    return "\n".join(rows)
+
 def evaluate(model, X_test, y_test) -> str:
     y_pred = model.predict(X_test)
     acc = accuracy_score(y_test, y_pred)
@@ -47,9 +54,8 @@ def evaluate(model, X_test, y_test) -> str:
         "",
         "Classification report:",
         report,
-        "Confusion matrix (rows=true, cols=predicted):",
-        f"Labels: {labels}",
-        str(matrix),
+"Confusion matrix (rows = true urgency, columns = predicted urgency):",
+format_confusion_matrix(matrix, labels),
     ]
     return "\n".join(lines)
 
