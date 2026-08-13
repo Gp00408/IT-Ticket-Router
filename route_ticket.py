@@ -17,7 +17,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-MODELS_DIR = "models"
+MODELS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models")
 
 # Which team a ticket gets routed to, based on the predicted category.
 TEAM_ROUTING = {
