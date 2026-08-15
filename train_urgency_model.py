@@ -1,13 +1,9 @@
 import os
 
 import joblib
-import pandas as pd
-from scipy.sparse import load_npz
-from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
-MODELS_DIR = "models"
-PROCESSED_DIR = "data/processed"
+from model_utils import MODELS_DIR, format_confusion_matrix, load_split, train_model
 
 LABEL_COL = "urgency"
 MODEL_PATH = os.path.join(MODELS_DIR, "urgency_model.joblib")
@@ -17,30 +13,6 @@ REPORT_PATH = os.path.join(MODELS_DIR, "urgency_model_report.txt")
 # readable reports/confusion matrices instead of alphabetical sorting.
 CLASS_ORDER = ["Low", "Medium", "High"]
 
-
-def load_split():
-    X_train = load_npz(os.path.join(PROCESSED_DIR, "X_train.npz"))
-    X_test = load_npz(os.path.join(PROCESSED_DIR, "X_test.npz"))
-    train_df = pd.read_csv(os.path.join(PROCESSED_DIR, "tickets_train.csv"))
-    test_df = pd.read_csv(os.path.join(PROCESSED_DIR, "tickets_test.csv"))
-    return X_train, X_test, train_df[LABEL_COL], test_df[LABEL_COL]
-
-
-def train_model(X_train, y_train) -> LogisticRegression:
-    model = LogisticRegression(
-        max_iter=1000,
-        class_weight="balanced",
-    )
-    model.fit(X_train, y_train)
-    return model
-
-
-def format_confusion_matrix(matrix, labels) -> str:
-    width = max(len(label) for label in labels) + 2
-    rows = [" " * width + "".join(label.rjust(width) for label in labels)]
-    for label, row in zip(labels, matrix):
-        rows.append(label.rjust(width) + "".join(str(v).rjust(width) for v in row))
-    return "\n".join(rows)
 
 def evaluate(model, X_test, y_test) -> str:
     y_pred = model.predict(X_test)
@@ -54,14 +26,14 @@ def evaluate(model, X_test, y_test) -> str:
         "",
         "Classification report:",
         report,
-"Confusion matrix (rows = true urgency, columns = predicted urgency):",
-format_confusion_matrix(matrix, labels),
+        "Confusion matrix (rows = true urgency, columns = predicted urgency):",
+        format_confusion_matrix(matrix, labels),
     ]
     return "\n".join(lines)
 
 
 def main():
-    X_train, X_test, y_train, y_test = load_split()
+    X_train, X_test, y_train, y_test = load_split(LABEL_COL)
 
     model = train_model(X_train, y_train)
     summary = evaluate(model, X_test, y_test)

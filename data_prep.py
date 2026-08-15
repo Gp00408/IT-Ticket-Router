@@ -2,14 +2,14 @@ import json
 import os
 
 import pandas as pd
-from dotenv import load_dotenv
-from urllib.parse import quote_plus
-from sqlalchemy import create_engine, text
+from sqlalchemy import text
 
-load_dotenv()
+from db import get_engine
 
-RAW_PATH = "data/raw/synthetic_tickets.json"
-PROCESSED_PATH = "data/processed/tickets.csv"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_PATH = os.path.join(BASE_DIR, "data", "raw", "synthetic_tickets.json")
+PROCESSED_PATH = os.path.join(BASE_DIR, "data", "processed", "tickets.csv")
+PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
 
 def load_raw() -> pd.DataFrame:
@@ -24,17 +24,6 @@ def clean_dataset(df: pd.DataFrame) -> pd.DataFrame:
     df = df[df["ticket_text"].str.len() > 0]
     df = df.drop_duplicates(subset=["ticket_text"])
     return df.reset_index(drop=True)
-
-
-def get_engine():
-    db_user = os.getenv("DB_USER")
-    db_password = quote_plus(os.getenv("DB_PASSWORD"))
-    db_host = os.getenv("DB_HOST")
-    db_port = os.getenv("DB_PORT")
-    db_name = os.getenv("DB_NAME")
-    return create_engine(
-        f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
-    )
 
 
 def load_to_db(df: pd.DataFrame, engine) -> None:
@@ -58,7 +47,7 @@ def main():
     df = load_raw()
     df = clean_dataset(df)
 
-    os.makedirs("data/processed", exist_ok=True)
+    os.makedirs(PROCESSED_DIR, exist_ok=True)
     df.to_csv(PROCESSED_PATH, index=False)
 
     engine = get_engine()

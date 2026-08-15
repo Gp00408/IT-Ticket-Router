@@ -12,9 +12,9 @@ Classification report:
    macro avg      0.792     0.792     0.792        72
 weighted avg      0.792     0.792     0.792        72
 
-Confusion matrix (rows=true, cols=predicted):
-Labels: ['Access', 'Hardware', 'Network', 'Software']
-[[15  0  0  3]
- [ 0 16  2  0]
- [ 1  2 13  2]
- [ 1  1  3 13]]
+Confusion matrix (rows = true category, columns = predicted category):
+              Access  Hardware   Network  Software
+    Access        15         0         0         3
+  Hardware         0        16         2         0
+   Network         1         2        13         2
+  Software         1         1         3        13

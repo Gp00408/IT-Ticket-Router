@@ -2,32 +2,21 @@ import os
 
 import joblib
 import pandas as pd
-from dotenv import load_dotenv
-from urllib.parse import quote_plus
-from sqlalchemy import create_engine
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from scipy.sparse import save_npz
 
-load_dotenv()
+from db import get_engine
 
-MODELS_DIR = "models"
-PROCESSED_DIR = "data/processed"
-
-
-def get_engine():
-    db_user = os.getenv("DB_USER")
-    db_password = quote_plus(os.getenv("DB_PASSWORD"))
-    db_host = os.getenv("DB_HOST")
-    db_port = os.getenv("DB_PORT")
-    db_name = os.getenv("DB_NAME")
-    return create_engine(
-        f"postgresql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
-    )
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODELS_DIR = os.path.join(BASE_DIR, "models")
+PROCESSED_DIR = os.path.join(BASE_DIR, "data", "processed")
 
 
 def load_tickets(engine) -> pd.DataFrame:
-    return pd.read_sql("SELECT ticket_text, category, urgency FROM tickets", engine)
+    return pd.read_sql(
+        "SELECT ticket_text, category, urgency FROM tickets ORDER BY ticket_id", engine
+    )
 
 
 def main():
