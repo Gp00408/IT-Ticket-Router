@@ -1,0 +1,120 @@
+<svg viewBox="0 0 820 1040" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dTitle dDesc">
+<title id="dTitle">IT Ticket Router architecture, Rounds 1 through 6</title>
+<desc id="dDesc">Round 1 generates and cleans 360 synthetic tickets into Postgres. Round 2 vectorizes them with TF-IDF into a train/test split. Rounds 3 and 4 train a category model (79.2% accuracy) and an urgency model (81.9% accuracy) in parallel. Round 5 uses both models to classify a new ticket, route it to a team, and draft a suggested reply with GPT. Round 6 wraps all of that in a Streamlit app.</desc>
+<defs>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --box-fill: #f5f5f7;
+      --box-stroke: #d8d8dc;
+      --text-main: #1c1c1f;
+      --text-sub: #6b6b73;
+      --arrow: #a5a5ad;
+      --accent-fill: #eaf6ee;
+      --accent-stroke: #4caf6d;
+      --accent-text: #1f6b3a;
+      --band-fill: #ececef;
+      --band-text: #55555c;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1e21;
+        --box-fill: #2a2a2e;
+        --box-stroke: #3d3d42;
+        --text-main: #f0f0f2;
+        --text-sub: #a3a3ab;
+        --arrow: #6b6b73;
+        --accent-fill: #16301f;
+        --accent-stroke: #3f9b62;
+        --accent-text: #7fd69a;
+        --band-fill: #29292d;
+        --band-text: #b7b7bf;
+      }
+    }
+    text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-size: 15px; font-weight: 600; fill: var(--text-main); }
+    .subtitle { font-size: 12px; fill: var(--text-sub); }
+    .box { fill: var(--box-fill); stroke: var(--box-stroke); stroke-width: 1.5; }
+    .accentbox { fill: var(--accent-fill); stroke: var(--accent-stroke); stroke-width: 1.5; }
+    .accenttitle { font-size: 15px; font-weight: 700; fill: var(--accent-text); }
+    .accentsub { font-size: 12px; font-weight: 600; fill: var(--accent-text); }
+    .lane { font-size: 12px; font-weight: 700; fill: var(--text-sub); letter-spacing: 0.04em; }
+    line, path.arrow { stroke: var(--arrow); stroke-width: 1.5; fill: none; }
+    marker path { fill: var(--arrow); }
+  </style>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 Z" />
+  </marker>
+</defs>
+
+<rect width="820" height="1040" fill="var(--bg)"/>
+
+<!-- Round 1 -->
+<text x="270" y="36" text-anchor="middle" class="lane">ROUND 1</text>
+<rect x="270" y="46" width="280" height="56" rx="10" class="box"/>
+<text x="410" y="69" text-anchor="middle" class="title">Generate &amp; Clean Dataset</text>
+<text x="410" y="87" text-anchor="middle" class="subtitle">360 synthetic tickets → Postgres</text>
+
+<line x1="410" y1="102" x2="410" y2="130" marker-end="url(#arrow)"/>
+
+<!-- Round 2 -->
+<text x="270" y="146" text-anchor="middle" class="lane">ROUND 2</text>
+<rect x="270" y="156" width="280" height="56" rx="10" class="box"/>
+<text x="410" y="179" text-anchor="middle" class="title">Vectorize with TF-IDF</text>
+<text x="410" y="197" text-anchor="middle" class="subtitle">288 train / 72 test</text>
+
+<path class="arrow" d="M 360,212 L 230,240" marker-end="url(#arrow)"/>
+<path class="arrow" d="M 460,212 L 590,240" marker-end="url(#arrow)"/>
+
+<!-- Round 3 / 4 -->
+<text x="230" y="234" text-anchor="middle" class="lane">ROUND 3</text>
+<text x="590" y="234" text-anchor="middle" class="lane">ROUND 4</text>
+
+<rect x="90" y="244" width="280" height="56" rx="10" class="box"/>
+<text x="230" y="267" text-anchor="middle" class="title">Train Category Model</text>
+<text x="230" y="285" text-anchor="middle" class="subtitle">Logistic Regression</text>
+
+<rect x="450" y="244" width="280" height="56" rx="10" class="box"/>
+<text x="590" y="267" text-anchor="middle" class="title">Train Urgency Model</text>
+<text x="590" y="285" text-anchor="middle" class="subtitle">Logistic Regression</text>
+
+<rect x="90" y="312" width="280" height="52" rx="10" class="accentbox"/>
+<text x="230" y="338" text-anchor="middle" class="accenttitle">79.2% accuracy</text>
+<text x="230" y="356" text-anchor="middle" class="accentsub">category_model.joblib</text>
+
+<rect x="450" y="312" width="280" height="52" rx="10" class="accentbox"/>
+<text x="590" y="338" text-anchor="middle" class="accenttitle">81.9% accuracy</text>
+<text x="590" y="356" text-anchor="middle" class="accentsub">urgency_model.joblib</text>
+
+<path class="arrow" d="M 230,364 L 370,398" marker-end="url(#arrow)"/>
+<path class="arrow" d="M 590,364 L 450,398" marker-end="url(#arrow)"/>
+
+<!-- Round 5 -->
+<text x="270" y="416" text-anchor="middle" class="lane">ROUND 5</text>
+<rect x="270" y="402" width="280" height="76" rx="10" class="box"/>
+<text x="410" y="428" text-anchor="middle" class="title">Classify, Route, Draft Reply</text>
+<text x="410" y="446" text-anchor="middle" class="subtitle">route_ticket.py</text>
+<text x="410" y="464" text-anchor="middle" class="subtitle">category + urgency → team + GPT reply</text>
+
+<line x1="410" y1="478" x2="410" y2="506" marker-end="url(#arrow)"/>
+
+<!-- Round 6 -->
+<text x="270" y="522" text-anchor="middle" class="lane">ROUND 6</text>
+<rect x="270" y="532" width="280" height="66" rx="10" class="accentbox"/>
+<text x="410" y="558" text-anchor="middle" class="accenttitle">Streamlit App</text>
+<text x="410" y="580" text-anchor="middle" class="accentsub">type a ticket, see it routed live</text>
+
+<!-- footer note -->
+<rect x="60" y="630" width="700" height="330" rx="10" class="box"/>
+<text x="410" y="660" text-anchor="middle" class="title">How a ticket flows through the finished app</text>
+<text x="410" y="690" text-anchor="middle" class="subtitle">1. You type a ticket into the app (Round 6)</text>
+<text x="410" y="714" text-anchor="middle" class="subtitle">2. It's converted into numbers with the same TF-IDF tool from Round 2</text>
+<text x="410" y="738" text-anchor="middle" class="subtitle">3. The Round 3 and Round 4 models each make a prediction</text>
+<text x="410" y="762" text-anchor="middle" class="subtitle">4. Round 5 looks up which team handles that category</text>
+<text x="410" y="786" text-anchor="middle" class="subtitle">5. Round 5 asks GPT to draft a suggested first reply</text>
+<text x="410" y="810" text-anchor="middle" class="subtitle">6. The app shows you all of it instantly</text>
+<text x="410" y="850" text-anchor="middle" class="subtitle">Rounds 1, 2, 3, and 4 only need to run once, ahead of time,</text>
+<text x="410" y="870" text-anchor="middle" class="subtitle">to build the dataset and train the models.</text>
+<text x="410" y="894" text-anchor="middle" class="subtitle">Rounds 5 and 6 are what actually run every time</text>
+<text x="410" y="914" text-anchor="middle" class="subtitle">someone submits a new ticket.</text>
+</svg>
