@@ -1,4 +1,4 @@
-# IT Ticket Router
+# AI Ticket Classification & Routing System
 
 An AI system that reads an IT support ticket written in plain English and
 automatically predicts its **category**, its **urgency**, and which **team**
